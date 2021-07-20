@@ -17,14 +17,22 @@
 * Software: Python 3.8.8, Anaconda, Jupyter Lab, git 2.32.0
 * Output Files: PyCitySchools.ipynb & PyCitySchools_Challenge.ipynb (with NaN)
 
+## Summary: 
+The chief data scientist needs me to replace the math and reading scores for Thomas High School with NaNs, all while keeping the rest of the data intact. Once doing so, the scientist  wants me to repeat the school district analysis and describe how these changes affected the overall analysis.
+
+Three different levels will be observed to be analyzed:
+* District Level
+* School Type Level
+* School Level
+
 ## Results
 
 ### How is the district summary affected?
-- Average Math Scores: went from 79 to 78.9 due to taking out Thomas High School Ninth Grader scores.
-- Average Reading Scores did not change.
-- % Passing Math moved from 75% to 74.8%.
-- % Passing Reading moved from 86% to 85.7%.
-- % Overall Passing moved from 65% to 64.9%.
+* Average Math Scores: went from 79 to 78.9 due to taking out Thomas High School Ninth Grader scores.
+* Average Reading Scores did not change.
+* % Passing Math moved from 75% to 74.8%.
+* % Passing Reading moved from 86% to 85.7%.
+* % Overall Passing moved from 65% to 64.9%.
 
 ### With Thomas Hi. 9th Grader Scores
 <img width="779" alt="Screen Shot 2021-07-19 at 9 05 41 PM" src="https://user-images.githubusercontent.com/85847344/126260538-65be1f3e-55ba-4216-ae38-bce585759b89.png">
@@ -34,8 +42,6 @@
 
 ### How is the school summary affected?
 * When taking away the 9th graders at Thomas...
-83.848930	83.418349	
-
  * The Average Math at Thomas decreased from 83.42 to 83.35.
  * Average Reading at Thomas increased from 83.84 to 83.89.
  * Average Percent Passing Math at Thomas decreased from 93.3% to 66.9%.
@@ -67,6 +73,3 @@
         *% Passing Math declined from 93.6% to 90.3%.
         *% Passing Reading ddecreased from 96.6% to 93.1%.
         *% Overall Passing decreased from 90.4% to 87.2%.
-
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-
